@@ -1,0 +1,112 @@
+/* CarDetails.module.css */
+/* ... (previous styles) */
+/* CarDetails.module.css */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .carImage {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .section {
+    margin-bottom: 30px;
+  }
+  
+  .subtitle {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .specList,
+  .featureList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .specList li,
+  .featureList li {
+    margin-bottom: 8px;
+  }
+  
+  .comparisonTable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .comparisonTable th,
+  .comparisonTable td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .comparisonTable th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  
+  .loginForm {
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .loginForm h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .loginForm label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .loginForm input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .loginForm button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .loginForm button:hover {
+    background-color: #0056b3;
+  }
+  
+  .buyButton{
+    background-color: #0056b3;
+    width: 100px;
+    border: 4px #0056b3;
+    border-radius: 4px;
+    background-color: #007bff;
+  }
+  
+  
